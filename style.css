@@ -93,6 +93,22 @@ body {
   transform: scale(1.1);
   background-color: rgb(100, 40, 0);
 }
+.play-btn {
+  background-color: chocolate;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.play-btn:hover {
+  background-color: rgb(100, 40, 0);
+  transform: scale(1.05);
+}
+
 
 /* ---------- MEDIA QUERIES ---------- */
 
